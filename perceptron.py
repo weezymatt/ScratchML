@@ -9,7 +9,9 @@ def unit_step_func(x):
 
 # perceptron vs naive bayes
 # does not make strong independence assumptions involving features; must be linearly separable! (think xor)
+# Solution to XOR: introdude bigrams! Perceptron & unigrams do not work for data not linearly separable.
 # discriminative linear classifier 
+
 
 class Perceptron:
 	
